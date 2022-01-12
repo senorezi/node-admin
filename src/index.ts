@@ -11,11 +11,10 @@ app.use(cors({
 
 routes(app);
 
-/*
 app.get('/', (req: Request, res: Response) => {
     res.send('<b>Hello World</b>');
 }); // when they land into your page, it's a get request. send them back 'Hello World'
-*/
+
 
 // Our app is going to be on Port 8000
 // Our frontend will run on a different port
